@@ -56,7 +56,7 @@ function mouseDragged(){
 }
 
 function mouseReleased(){
-    slingshot.fly();
+    slingshot.fly(ball.body);
 }
 
 function keyPressed(){
